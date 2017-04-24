@@ -1,0 +1,334 @@
+/*http://fontawesome.io/icons/ - Site do icone*/
+/* colocar a tag primeiro e depois as class*/
+
+body {
+	background-color: #FBF4FF;
+	margin: 0;
+	width: 100%;
+}
+
+input{
+	margin-left: 35px;
+	margin-bottom: 10px;
+}
+
+
+footer{
+	color: #F4F4F4;
+	background: hsla(0, 100%, 30%, 0.5);
+	margin: 0 auto;
+	width: 1024px;
+} 
+
+
+
+/* //////////IDS E CLASSES - INICIO DO HEADER/////////// */
+
+
+
+
+#login{
+	background-color: hsla(0, 100%, 30%, 1); 
+	color: white;
+}
+
+#cadastro{
+	color: hsla(0, 100%, 30%, 1);
+}
+
+#comprar{
+	background-color: black; 
+	color: white;
+}
+
+.inicio{
+	color: #F4F4F4;
+	background:hsla(0, 100%, 30%, 0.5);
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+	height: 60px;
+	align-items: center;
+	width: 1024px;
+}
+
+.mundodosbebes{
+	font-size: 30px;
+	color: white;
+}
+
+.home ul{
+	list-style: none;
+	padding-left: 20px; 
+}
+
+
+.menu{
+	justify-content: center;
+	display: flex;
+	margin: auto;
+}
+
+.menu ul{
+	list-style: none;
+	display: flex;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	margin: 10px 5px;
+	color: hsla(0, 100%, 30%, 1);
+}
+
+
+.principal{
+	display: flex;
+	width: 1024px;
+	margin: auto;
+}
+.conteudo{
+	display: block;
+	margin:auto;
+	background: url(../images/bebes.jpg) center bottom; 
+	width: 1024px;
+	background-size: cover;
+	text-align : justify;
+
+}
+.buttonNovidades{
+	position: relative;
+	top:-150px;
+	justify-content: space-around;
+	flex-direction: row;
+	display: flex;
+	width: 100%;
+	border-radius: 20px;
+	color: hsla(0, 100%, 30%, 1);
+
+}
+
+.vertodos1{
+	margin-left: 100px;
+	border-radius: 20px;
+	color: hsla(0, 100%, 30%, 1);
+	font-height: bold;
+}
+
+.vertodos2{
+	margin-right: 50px;
+	border-radius: 20px;
+	color: hsla(0, 100%, 30%, 1);
+	font-height: bold;
+}
+
+.fotologo img{
+	display: block;
+	width: 120px;
+	margin: auto;
+	opacity: 0.8;
+	border-radius: 100px;
+}
+.lema{
+	display: flex;
+	justify-content: center;
+	color: hsla(0, 100%, 30%, 1);
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.box{
+	background: hsla(0, 100%, 90%, 0.3);
+	width: 700px;
+	padding: 10px;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.cabecalho {
+	width: 700px;	
+	display: flex;
+	color: hsla(0, 100%, 30%, 0.8);
+}
+
+.cabecalho img{
+	width:40px;
+	height: 40px;
+}
+
+.fotobox{
+	display: flex;
+	justify-content: center;
+	margin: 40px 20px;
+}
+.fotobox img{
+	width:250px;
+	height: 200px;
+	object-fit: cover; 
+	margin-left: 20px;
+}
+
+.inputs{
+	display: flex;
+	justify-content: center;
+	margin-left: 30px;
+}
+
+.paginaSite ul{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	color: hsla(0, 100%, 30%, 1);
+	margin-left: 400px;
+	width: 20%;
+}
+
+.paginaSite li a{
+	text-decoration: none;
+}
+
+
+
+
+/*  //////ASIDE////////// */
+
+
+
+
+
+.corpoDireitoDoSite{
+	width: 250px;
+}
+
+.boxAside{
+	border: 1px solid hsla(0, 100%, 30%, 0.8); 
+	margin-left: 20px;
+	margin-bottom: 20px;
+	justify-content:left;
+}
+
+.meucarrinho{
+	color: hsla(0, 100%, 30%, 0.8);
+}
+.suaconta{
+	margin-left: 20px;
+}
+
+.titulo1 p{
+	color:hsla(0, 100%, 30%, 0.8);
+}
+
+
+.titulo1 p{
+	border: 1px solid hsla(0, 100%, 30%, 1);
+	background: hsla(0, 100%, 30%, 0.5);
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.naveItens{
+	justify-content: left;
+}
+
+.naveItens ul{
+	list-style: none;
+}
+
+.naveItens ul li a{
+	text-decoration: none;
+	color: black;
+	
+}
+.newsletter{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+} 
+
+.email{
+	padding-left: 8px;
+	font-weight: bold;
+	font-size: 14px;
+	justify-content: center;
+}
+
+
+.assine{
+	margin-left: 90px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	border-color: 1px solid hsla(0, 100%, 30%, 0.8);
+	color: hsla(0, 100%, 30%, 1);
+}
+
+.mensagem{
+	display: none;
+	background-color: green;
+	color: white;
+	padding: 14px;
+
+}
+
+.mensagem.ativo{
+	display: block;
+}
+
+/* ////////TÉRMINO ASIDE///////*/
+
+
+
+
+/* ////////INICIO FOOTER/////// */
+
+.rodape{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	text-decoration: none;
+}
+
+#copyright{
+	justify-content: center;
+	margin-left: 120px;
+}
+
+#card{
+	margin-left: 200px;
+} 
+
+#facebook{
+	margin-right: 10px;
+}
+
+/* //////////ESTILO DO BOTAO!/////////*/
+
+
+
+.botao{
+	/*altura do conteudo*/
+	height: 20px;
+	/*Altura da linha*/
+	line-height: 20px;
+	/*Arredondar*/
+	border-radius: 20px;
+	/*Tirar a borda*/
+	border: none;
+	/*Cor do texto*/
+	padding: 0px 20px;
+	cursor: pointer;
+	width: 100px;
+}
+
+.botao.padrao{
+	color: hsla(0, 100%, 30%, 1);
+}
+.botao.preto{
+	background: black;
+	color: white;
+}
+
+/* ///////FIM DO ESTILO DO BOTAO! //////////*
+
+
+
+
+/*FIM DO FOOTER*/
