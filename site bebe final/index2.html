@@ -3,6 +3,7 @@
 <head>
 	<title>O Mundo dos Bebes</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no"> 
 	<link rel="stylesheet" type="text/css" href="estilo/style2.css">
 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
@@ -10,15 +11,37 @@
 </head>
 <body>
 	<header>
+
 		<section class= "inicio">
+
+			<button class="sanduiche">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+
 			<div class="titulo">
-				<h1 class="mundodosbebes"> O Mundo dos Bebês</h1>
+				<h1 class="mundodosbebes">O Mundo dos Bebês</h1>
 			</div>
 			<div class="buttons">
 				<button id="login" value="login" title="Faça seu login">Login</button>
 				<button id="cadastro" value="cadastro" title="Faça seu cadastro">Cadastro</button>
 			</div>
+			<div class="personIcon">
+				<i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+			</div>			
 		</section>
+
+		<aside class="navbarMundo">
+			<nav>
+				<ul>
+					<li> <a href= "fidelidadedobebe.html" target=_black >Fidelidade de Bebê</a></li>
+					<li> <a href= "quemsomos.html" target=_black> Quem somos</a></li>
+					<li> <a href= "contato.html" target=_black>Contato</a></li>
+				</ul>
+			</nav>
+		</aside>
+
 		<section class="conteudo">
 			<div class="menu">
 				<nav>
@@ -42,7 +65,7 @@
 		<main class="corpoEsquerdoDoSite">
 			<div class="home">	
 				<ul>
-				<li> <a href="#" title="Home" target="_blank">Home </a></li>
+					<li> <a href="#" title="Home" target="_blank">Home </a></li>
 				</ul>
 			</div>	
 			<div class="box">
@@ -126,13 +149,13 @@
 						</div>
 						<nav class="paginaSite">
 							<ul>
-								<li><a href= "#" target="_black"> < </a></li>
-								<li><a href= "#" target="_black"> 1|</a></li>
-								<li><a href= "#" target="_black"> 2|</a></li>
-								<li><a href= "#" target="_black"> 3|</a></li>
-								<li><a href= "#" target="_black"> 4|</a></li>
-								<li><a href= "#" target="_black"> 5|</a></li>
-								<li><a href= "#" target="_black"> > </a></li>
+								<li><a class="bordaPagina comeco" href= "#" target="_black"> < </a></li>
+								<li><a class="bordaPagina numeracao" href= "#" target="_black"> 1 </a></li>
+								<li><a class="bordaPagina numeracao" href= "#" target="_black"> 2 </a></li>
+								<li><a class="bordaPagina numeracao" href= "#" target="_black"> 3 </a></li>
+								<li><a class="bordaPagina numeracao" href= "#" target="_black"> 4 </a></li>
+								<li><a class="bordaPagina" href= "#" target="_black"> 5 </a></li>
+								<li><a class="bordaPagina" href= "#" target="_black"> > </a></li>
 							</ul>
 						</nav>
 					</main>
@@ -172,45 +195,45 @@
 								<div class="titulo1">
 									<p>Newsletter</p>
 								</div>
-						
-									<p class="email">Quer receber novidades e ofertas exclusivas? Assine nossa newsletter!</p>
+
+								<p class="email">Quer receber novidades e ofertas exclusivas? Assine nossa newsletter!</p>
 
 								<input type="assine" name="assine" value="E-mail">
 								<button class="assine" value="assine">Assine</button>
 
-									<p class="mensagem"> Cadastro efetuado com sucesso </p>
-								</div>
-
-
-
-
+								<p class="mensagem"> Cadastro efetuado com sucesso </p>
 							</div>
 
-						</aside>
-					</section>
-					<footer>
-						<div class="rodape">
-							<div id="facebook">
-								<a href="#" title="Acesse o site do facebook" target="_blank">
-									<i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i> 
-								</a>
-							</div>
-							<div id="twitter">
-								<a href="#" title="Acesse o site do twitter" target="_blank">
-									<i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
-								</a>
-							</div>
-							<div id="copyright">
-								<h4>Copyright 2017 {Reprograma}</h4>
-							</div>
-							<div id="card">
-								<a href="#" title="Realize o seu pagamento" target="_blank">
-									<i class="fa fa-credit-card fa-2x" aria-hidden="true"></i>
-								</a>
-							</div>			
+
+
+
 						</div>
-					</footer>
 
-					<script type="text/javascript" src="js/script.js"></script>
-				</body>
-				</html>
+					</aside>
+				</section>
+				<footer>
+					<div class="rodape">
+						<div id="facebook">
+							<a href="#" title="Acesse o site do facebook" target="_blank">
+								<i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i> 
+							</a>
+						</div>
+						<div id="twitter">
+							<a href="#" title="Acesse o site do twitter" target="_blank">
+								<i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+							</a>
+						</div>
+						<div id="copyright">
+							<h4>Copyright 2017 {Reprograma}</h4>
+						</div>
+						<div id="card">
+							<a href="#" title="Realize o seu pagamento" target="_blank">
+								<i class="fa fa-credit-card fa-2x" aria-hidden="true"></i>
+							</a>
+						</div>			
+					</div>
+				</footer>
+
+				<script type="text/javascript" src="js/script.js"></script>
+			</body>
+			</html>
